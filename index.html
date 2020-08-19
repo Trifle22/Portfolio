@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Александр Хромченков, веб-разработчик, студент</title>
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="img/icons8-computer-64.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -12,7 +13,7 @@
 <body>
   <header class="hero">
     <div class="container">
-    <div class="hero-header">
+    <div class="hero-header wow fadeInDown">
       <img src="img/logo.png" alt="logo" class="logo">
       <div class="social-links">
         <a href="https://github.com/Trifle22" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
@@ -26,15 +27,15 @@
     <!-- /.hero-header -->
     <div class="hero-content">
       <div class="hero-text">
-       <span class="hero-subtitle">Студент</span> 
+       <span class="hero-subtitle">Фрилансер</span> 
        <h1 class="hero-title">Александр Хромченков</h1>
        <p class="hero-description">
-         Разрабатываю сайты, у меня можно заказать вёрстку лендинга, сайта-визитки, промо-сайта, сайта-портфолио и др.
+         Разрабатываю сайты, у меня можно заказать вёрстку лендинга, сайта-визитки, промо-сайта или сайта-портфолио
        </p>
-       <button class="hero-button">Связаться со мной</button>
+       <button class="hero-button wow fadeInUp " data-wow-delay="1s">Связаться со мной</button>
       </div>
       <!-- /.hero-text -->
-      <div class="hero-avatar">
+      <div class="hero-avatar wow fadeIn" data-wow-delay="0.5s">
 
       </div>
       <!-- /.hero-avatar -->
@@ -43,5 +44,83 @@
   </div>
      <!-- /.container -->
   </header>
+  <main>
+    <section class="features section">
+      <div class="container">
+        <h2 class="section-title">Со мной удобно работать</h2>
+        <div class="features-block">
+          <div class="features-item wow fadeInLeft" data-wow-delay="0.5s">
+            <i class="far fa-calendar-alt features-image"></i>
+            <h3 class="features-title">Точно в срок</h3>
+            <p class="features-text">Сдаю проект точно в обговоренные даты</p>
+          </div>
+          <div class="features-item wow fadeInRight" data-wow-delay="0.5s">
+            <i class="fas fa-money-check-alt features-image"></i>
+            <h3 class="features-title">Ценник под вас</h3>
+            <p class="features-text">Сделаю рассчет цены за работу и объясню, как складывается цена</p>
+          </div>
+          <div class="features-item wow fadeInLeft" data-wow-delay="0.5s">
+            <i class="fas fa-poll-h features-image"></i>
+            <h3 class="features-title">Промежуточные итоги</h3>
+            <p class="features-text">Показываю работу поэтапно, а не в последний момент перед крайним сроком</p>
+          </div>
+          <div class="features-item wow fadeInRight" data-wow-delay="0.5s">
+            <i class="fas fa-chalkboard-teacher features-image"></i>
+            <h3 class="features-title">Не исчезну после сдачи</h3>
+            <p class="features-text">Научу вас или вашего сотрудника пользоваться сайтом</p>
+          </div>
+        </div>
+        <!-- /.features-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.features -->
+  </main>
+  <footer class="section">
+    <div class="container">
+      <h2 class="section-title">Свяжитесь со мной</h2>
+      <div class="contacts-block">
+        <form action="#" class="contacts-form wow fadeInUp" data-wow-delay="0.5s">
+          <h4 class="form-title">Оставьте заявку</h4>
+          <input type="text" class="input input-name" placeholder="Ваше имя">
+          <input type="text" class="input input-phone" placeholder="Ваш телефон">
+          <button class="form-button">Отправить</button>
+        </form>
+        <div class="contacts-text">
+          <div class="contacts-data">
+            <div class="contacts-phone">
+              <h4 class="contacts-title">Телефон</h4>
+              <a href="tel:+79252186005" class="contacts-link">+7 925 218-60-05</a>
+            </div>
+            <!-- /.contacts-phone -->
+            <div class="contacts-mail">
+              <h4 class="contacts-title">Почта</h4>
+              <a href="mailto:xromchenkov99@gmail.com" class="contacts-link">xromchenkov99@gmail.com</a>
+            </div>
+            <!-- /.contacts-mail -->
+            <div class="contacts-social">
+              <h4 class="contacts-title">Соцсети</h4>
+              <a href="" class="contacts-link" target="_blank">t.me/djava_da</a>
+              <a href="https://vk.com/ahromchenkov" class="contacts-link" target="_blank">vk.me/ahromchenkov</a>
+              <a href="https://www.instagram.com/djava.da/?igshid=4yv5tkq2cqsm" class="contacts-link" target="_blank">inst.com/djava.da</a>
+            </div>
+            <!-- /.contacts-social -->
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/Trifle22" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://vk.com/ahromchenkov" class="social-link" target="_blank"><i class="fab fa-vk"></i></a>
+            <a 
+            href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fdjava.da%3Figshid%3D4yv5tkq2cqsm&cc_key=" class="social-link" target="_blank">
+            <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <!-- /.contacts-text -->
+      </div>
+      <!-- /.contacts-block -->
+    </div>
+  </footer>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

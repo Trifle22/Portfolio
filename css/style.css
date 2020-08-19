@@ -11,6 +11,17 @@ body {
   max-width: 945px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 64px;
+  padding-bottom: 92px;
+}
+.section-title {
+ margin: 0;
+ font-weight: bold;
+ font-size: 36px;
+ line-height: 42px;
+ margin-bottom: 84px; 
+}
 .hero {
   padding-top: 50px;
   background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
@@ -32,7 +43,10 @@ body {
 .social-link {
   font-size: 25px;
   margin-left: 20px;
-  color: #F0FFFF	;
+  color: #F0FFFF;
+}
+.social-link:first-child {
+  margin-left: 0;
 }
 .hero-subtitle {
   font-size: 24px;
@@ -54,7 +68,7 @@ body {
   line-height: 28px;
   max-width: 420px;
 }
-.hero-button {
+.hero-button, .form-button {
   background-color: #7B68EE;
   color: #F0FFFF;
   text-transform: uppercase;
@@ -67,6 +81,13 @@ body {
   outline: none;
   padding: 24px 42px;
   margin-top: 38px;
+  transition:  all 0.5s ease-in-out;
+}
+.hero-button:hover {
+  border-radius: 20px;
+}
+.form-button:hover {
+  border-radius: 20px;
 }
 .hero-avatar {
   width: 389px;
@@ -82,4 +103,123 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.features {
+  background-color: black;
+}
+  
+.features-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.features-item {
+  flex-basis: 50%;
+  margin-bottom: 63px;
+}
+
+.features-image {
+  font-size: 50px;
+  color:  #7B68EE;
+  display: inline-block;
+  margin-bottom: 22px;
+}
+.features-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;margin-bottom: 16px;
+}
+.features-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+.contacts-form {
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #7B68EE;
+  border-radius: 5px;
+  max-width: 380px;
+  padding-top: 40px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 49px;
+}
+.form-title {
+  color: #7B68EE;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.input {
+  background: #F8F8F8;
+box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+border-radius: 5px;
+padding: 18px 20px;
+width: 100%;
+border: none;
+font-size: 14px;
+line-height: 28px;
+outline: none;
+padding-left: 50px;
+}
+.input-name {
+  margin-bottom: 17px;
+  background-image: url(../img/user-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+.input-phone {
+  background: url(../img/phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+.form-button {
+  width: 100%;
+}
+.contacts-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contacts-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.contacts-text {
+  flex-basis: 50%;
+}
+.contacts-phone, .contacts-mail {
+  margin-bottom: 53px;
+}
+
+.contacts-social {
+  flex-basis: 100%;
+}
+.contacts-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.contacts-link {
+  text-decoration: none;
+  color: #F0FFFF;
+  margin-right: 37px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+  margin-bottom: 15px;
+
+}
+.contacts-link:hover {
+  text-decoration: underline;
 }
