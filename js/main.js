@@ -7,3 +7,7 @@ var mySwiper = new Swiper('.swiper-container', {
     clickable: true,
   },
 });
+
+const heroButton = document.querySelector('.hero-button');
+
+ heroButton.addEventListener('click', )
