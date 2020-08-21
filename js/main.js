@@ -8,6 +8,6 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 });
 
-const heroButton = document.querySelector('.hero-button');
-
- heroButton.addEventListener('click', )
+function scrollToContactMe() {
+  document.querySelector('.footer').scrollIntoView();
+}
