@@ -6,6 +6,7 @@ var mySwiper = new Swiper('.swiper-container', {
     bulletActiveClass: 'project-bullet-active',
     clickable: true,
   },
+  loop: true,
 });
 
 function scrollToContactMe() {
