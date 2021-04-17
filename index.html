@@ -332,9 +332,9 @@
       <div class="contacts-block">
         <form action="https://formspree.io/xwkrjwpe" method="POST" class="contacts-form wow fadeInLeft" data-wow-delay="0.5s">
           <h4 class="form-title">Оставьте заявку</h4>
-          <input type="text" name="name" class="input input-name" placeholder="Ваше имя">
-          <input type="text"  name="phone" class="input input-phone" placeholder="Ваш телефон">
-          <button class="form-button">Отправить</button>
+          <input type="text" name="name" class="input input-name" placeholder="Ваше имя" required>
+          <input type="text"  name="phone" class="input input-phone" placeholder="Ваш телефон" id="tel" required>
+          <button class="form-button" >Отправить</button>
         </form>
         <div class="contacts-text">
           <div class="contacts-data">
@@ -372,6 +372,7 @@
   </footer>
   <script src="js/wow.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/maskPhone.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
